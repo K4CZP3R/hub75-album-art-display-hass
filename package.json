@@ -1,0 +1,26 @@
+{
+  "name": "hub75-album-art-display-hass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "@types/ws": "^8.5.5",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "home-assistant-js-websocket": "^8.2.0",
+    "jimp": "^0.22.10",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.13.0"
+  }
+}
